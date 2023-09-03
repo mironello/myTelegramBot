@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>HelloWorld</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>Java16m3l1</module>
+        <module>JAVA16M3L2</module>
+        <module>Java16m3l1/src/main/HW4</module>
+        <module>Java16M4L1</module>
+        <module>HW5</module>
+        <module>HW6</module>
+        <module>JAVA16M5L2</module>
+        <module>JAVA16M8</module>
+        <module>HW7</module>
+        <module>JAVA16M7</module>
+        <module>HW8</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+</project>
