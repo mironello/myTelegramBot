@@ -39,9 +39,12 @@ public class WordRepeatCounter {
             wordCounter.put(word, wordCounter.getOrDefault(word, 0)+1);
         }
 
-        for (String word :
-                wordCounter.keySet()){
-            System.out.println(word + " " + wordCounter.get(word));
+        List<Map.Entry<String, Integer>> sortedEntries = new ArrayList<>(wordCounter.entrySet());
+        sortedEntries.sort(Map.Entry.<String, Integer>comparingByValue().reversed());
+
+        for (Map.Entry<String, Integer> entry :
+                sortedEntries){
+            System.out.println(entry.getKey() + " " + entry.getValue());
         }
     }
 
