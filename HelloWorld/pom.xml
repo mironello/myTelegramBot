@@ -21,6 +21,8 @@
         <module>JAVA16M7</module>
         <module>HW8</module>
         <module>HW9</module>
+        <module>JAVA16M10L1</module>
+        <module>HW10</module>
     </modules>
 
     <properties>
