@@ -32,7 +32,7 @@ public class WordRepeatCounter {
 
 // count and output count of word's repeat
     public void repeatCount(String filePath) throws IOException {
-        ArrayList<String> arr = readFileToArray(filePath);
+        List<String> arr = readFileToArray(filePath);
 
         HashMap<String, Integer> wordCounter = new HashMap<>();
         for(String word: arr){
