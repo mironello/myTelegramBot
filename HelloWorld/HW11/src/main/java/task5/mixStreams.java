@@ -4,14 +4,14 @@ import java.util.Arrays;
 import java.util.stream.Stream;
 
 public class mixStreams {public static <T> Stream<T> zip(Stream<T> first, Stream<T> second) {
-    // Зберігаємо елементи зі стрімів у відповідні масиви
+
     Object[] firstArray = first.toArray();
     Object[] secondArray = second.toArray();
 
-    // Знаходимо мінімальну довжину для зупинки на коротшому стрімі
+
     int minLength = Math.min(firstArray.length, secondArray.length);
 
-    // Повертаємо стрім, який складається з перемішаних елементів
+
     return Stream.concat(
             Arrays.stream(firstArray).boxed().limit(minLength),
             Arrays.stream(secondArray).boxed().limit(minLength)
