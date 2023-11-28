@@ -26,6 +26,9 @@
         <module>JAVA16M11L1</module>
         <module>JAVA16m11L2</module>
         <module>HW11</module>
+        <module>JAVA16M12L1</module>
+        <module>HW12</module>
+        <module>JAVA16M12L2</module>
     </modules>
 
     <properties>
